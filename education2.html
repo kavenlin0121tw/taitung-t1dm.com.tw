@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>無標題文件</title>
+<link href="css/style1.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.4.2.min.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="js/jquery.jcarousellite.pauseOnHover.js"></script>
+<script type="text/javascript" src="js/jquery.innerfade.js"></script>
+<script type="text/javascript" src="js/jquery.nestedAccordion.js"></script>
+
+</head>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+$("html").addClass("js");
+$.fn.accordion.defaults.container = false; 
+$(function() {
+  $("#leftlist").accordion({initShow : "#current"});
+});
+
+//--><!]]>
+</script>
+
+
+
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="js/jquery.fancybox-1.3.4.css" media="screen">
+<script type="text/javascript">
+		$(document).ready(function() {
+		
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+		});
+	</script>
+
+<script type="text/javascript">
+         $(document).ready(          
+             function(){ 
+                 $('#banner ul').innerfade({ 
+               speed: 1000, 
+            timeout: 5000, 
+         type: 'sequence', 
+      containerheight: '240px'
+     }); 
+    }); 
+</script>
+
+</head>
+<body>
+<div id="wrapper">
+<div id="container">
+<div id="bgbox">
+<div id="header">
+<div id="logo"><a href="#">回首頁</a></div>
+<div id="topbutbar">
+<ul>
+<li id="but1"><a href="index.html">回首頁</a></li>
+<li id="but2"><a href="aboutus.html">認識協會</a></li>
+<li id="but3"><a href="news1.html">最新訊息</a></li>
+<li id="but4"><a href="education1.html">衛教宣導</a></li>
+<li id="but5"><a href="experience1.html">交流園地</a></li>
+<li id="but6"><a href="donations1.html">捐款資訊</a></li>
+<li id="but7"><a href="weblink.html">友善連結</a></li>
+</ul>
+</div>
+</div>
+<div id="intorarea">
+<div id="banner">
+<ul>
+<li><img src="images/lbanner1.jpg" width="1160" height="240" /></li>
+<li><img src="images/lbanner2.jpg" width="1160" height="240" /></li>
+</ul>
+ </div>
+ <div id="leftbar">
+<h2>衛教宣導<span>Patent Education</span></h2>
+<div id="leftlist">
+<ul>
+<li><a href="#">衛教知識分享</a></li>
+<li><a href="#">治療趨勢</a></li>
+</ul>
+</div>
+
+<div id="leftbut1">
+<a href="calendar.html">活動行事曆</a>
+</div>
+<div id="leftbut2"> <a href="activity1.html">活動花絮</a> </div>
+<div id="leftbut3"> <a href="report1.html">媒體報導</a></div>
+
+
+ </div>
+  <div id="rightbar">
+  <div id="roadline"><a href="#">首頁</a><span>&gt;</span>衛教宣導<span>&gt;</span>衛教知識分享</div>
+  <div id="infosq">
+    <h3>衛教知識分享</h3>
+    <div class="textsq">
+      <div id="educationlist">
+ <div class="titleline">
+ <div class="name">專家的叮嚀</div>
+
+ <div class="date"><span>台東聖母醫院長 </span>林瑞祥</div>
+ <div class="date"><span>發怖時間 </span>2014.08.08</div>
+
+ </div>
+ 
+  <div class="newstext">
+    <p><div style="float:left"><img src="images/pic2.jpg" width="280" height="360" /><span>照片註解</span></div>運動對於有第一型的人會有相當大的幫助，但須避免在飯後1小時內做很激烈的運動，因為每個人的身體重量和運動的強度不一，建議有第一型糖尿病的人在做運動時，剛開始最好有人在旁邊注意，每做半小時或一小時就測血糖一次，如果血糖降太低，就要立即補充葡萄糖，多量幾次，經過多次經驗後才能抓住自己在運動時需要補充的胰島素或要補充的醣或葡萄糖的份量。 </p>
+    適當的運動對有糖尿病的人有相當大的幫助，第一是運動能消耗葡萄糖，降低血液中的血糖；其次，運動時腦中會分泌腦啡，會讓人產生一種愉快的感覺；運動也能消耗身體內的脂肪，讓身體更健康；最重要是規律的運動，能增加身體各類細胞對胰島素的反應，使血糖更容易受到控制，常要使用胰島素的有第一型糖尿病的人，還能因此只需要少量的胰島素就能達到讓身體血糖降低的目的。
+  
+  </div>
+      </div>
+    </div>
+    <div id="pageline"> <a href="#">上一頁</a> <a href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a> <a href="#">6</a> <a href="#">7</a> <a href="#">8</a> <a href="#">9</a> <a href="#">下一頁</a> </div>
+    <div id="gotop"><a href="#">▲TOP</a></div>
+  </div>
+  </div>
+
+</div>
+</div>
+
+
+<div id="footer">
+台東縣年輕糖尿病關懷促進會<br />
+地址：台東市杭州街290號　電話：089-325100　傳真：089325126<br />
+Copyright © 2014 台東縣年輕糖尿病關懷促進會all rights reserved </div>
+</div>
+
+</div>
+</body>
+</html>
